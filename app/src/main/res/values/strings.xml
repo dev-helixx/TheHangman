@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TheHangman</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="EASY">Hello blank fragment</string>
+    <string name="MEDIUM">Hello blank fragment</string>
+    <string name="HARD">Hello blank fragment</string>
+    <string name="EXPERT">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app=" "
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context="helix.thehangman.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </FrameLayout>
+
+    <TextView
+        android:text="HANGMAN"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:textColor="?attr/colorButtonNormal"
+        android:shadowColor="#2b3131"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="12"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="60sp"
+        android:textAlignment="center" />
+
+
+    <Button
+        android:text="Spil"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:id="@+id/playBtn"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp" />
+
+    <Button
+        android:text="Highscore"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreBtn"
+        android:layout_below="@+id/playBtn"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginBottom="25dp" />
+
+    <Button
+        android:text="Indstillinger"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/optBtn"
+        android:layout_below="@+id/scoreBtn"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView" />
+
+    <ImageView
+        app2:srcCompat="@drawable/stickman"
+        android:id="@+id/imageView"
+        android:layout_height="151dp"
+        android:layout_width="98dp"
+        android:layout_alignBottom="@+id/playBtn"
+        android:layout_toLeftOf="@+id/playBtn"
+        android:layout_toStartOf="@+id/playBtn" />
+
+
+</RelativeLayout>
