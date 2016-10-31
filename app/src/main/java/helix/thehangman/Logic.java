@@ -71,7 +71,7 @@ public class Logic {
             possibleWords.add("odense");possibleWords.add("korsør");
             possibleWords.add("næstved");possibleWords.add("køge");
             possibleWords.add("asnæs");possibleWords.add("kalundborg");
-        }else if(category.equals("countries")) {
+        }else if(category.equals("Lande")) {
             possibleWords.add("danmark");possibleWords.add("tyskland");
             possibleWords.add("albanien");possibleWords.add("slovakiet");
             possibleWords.add("sverige");possibleWords.add("norge");
