@@ -370,7 +370,6 @@ public class SingleplayerActivity extends AppCompatActivity implements View.OnCl
 
 
         if (logic.erSpilletVundet()) {
-            points += 100;
 
             saveHighscore();
             logic.logStatus();

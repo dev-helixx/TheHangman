@@ -14,31 +14,50 @@
     android:orientation="vertical">
 
 
-
-    <ImageButton
-        android:id="@+id/back_arrow"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@drawable/backarrow"/>
-    <TextView
-        android:text="Indstillinger"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:id="@+id/textView3"
-        android:textColor="@android:color/black"
-        android:textSize="36sp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:text="Spil regler"
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/back_arrow"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/backarrow"/>
+
+        <TextView
+            android:text="Indstillinger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/textView3"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="36sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <Button
+        android:text="Reset highscores"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:id="@+id/textview9"
-        android:layout_marginTop="20dp"
-        android:textColor="@android:color/black"
-        android:textStyle="normal|bold" />
+        android:id="@+id/reset_highscore"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:text="Regler"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/gameRulesBtn" />
 
     <TextView
         android:layout_width="match_parent"
@@ -47,16 +66,5 @@
         android:textColor="@android:color/black"
         android:textAlignment="textStart"
         android:layout_gravity="start"/>
-
-    <Button
-        android:text="Reset highscores"
-        android:layout_marginTop="50dp"
-        android:layout_gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/reset_highscore"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="73dp" />
 
 </LinearLayout>

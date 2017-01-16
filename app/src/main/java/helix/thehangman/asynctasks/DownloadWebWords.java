@@ -25,7 +25,7 @@ public class DownloadWebWords extends AsyncTask<Void, Void, ArrayList<String>> {
         {
             String data = logic.fetchURL("http://dr.dk");
             data = data.replaceAll("<.+?>", " ").toLowerCase().replaceAll("[^a-zæøå]", " ");
-            downloadedWordList.clear();l
+            downloadedWordList.clear();
             downloadedWordList.addAll(new HashSet<String>(Arrays.asList(data.split(" "))));
 
             System.out.println("doInBackground: Mulige ord efter de er tilføjet til listen = " + downloadedWordList);

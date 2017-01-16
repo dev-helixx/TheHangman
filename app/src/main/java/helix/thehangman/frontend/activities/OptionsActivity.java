@@ -19,7 +19,7 @@ public class OptionsActivity extends AppCompatActivity implements View.OnClickLi
 
 
 
-    private Button reset_highscore;
+    private Button reset_highscore, rulesBtn;
     private TextView gameRules;
     private ImageButton backButton;
 
@@ -32,9 +32,12 @@ public class OptionsActivity extends AppCompatActivity implements View.OnClickLi
         reset_highscore = (Button) findViewById(R.id.reset_highscore);
         reset_highscore.setOnClickListener(this);
         gameRules = (TextView) findViewById(R.id.gameRules);
+        rulesBtn = (Button) findViewById(R.id.gameRulesBtn);
 
         backButton = (ImageButton) findViewById(R.id.back_arrow);
         backButton.setOnClickListener(this);
+        rulesBtn.setOnClickListener(this);
+
 
         gameRules.setText("Reglerne for spillet er simple. Når der trykkes på 'Spil' knappen, " +
                 "vil en popup menu blive vist med en række kategorier der kan vælges. Når man " +
@@ -44,7 +47,7 @@ public class OptionsActivity extends AppCompatActivity implements View.OnClickLi
                 "Man starter altid med 2000 point. Efterhånden som tiden går, vil ens point mindskes.\n\n" +
                 "For hvert sekund der går, mister man 10 point.\n\n" +
                 "For hvert forkert bogstav der gættes på, mister man 100 point.");
-
+        gameRules.setVisibility(View.INVISIBLE);
     }
 
 
@@ -78,6 +81,15 @@ public class OptionsActivity extends AppCompatActivity implements View.OnClickLi
 
         }else if(view == backButton) {
             this.onBackPressed();
+
+        }else if( view == rulesBtn){
+            System.out.println("test");
+            if(gameRules.getVisibility() == View.INVISIBLE) {
+                gameRules.setVisibility(View.VISIBLE);
+            }else {
+                gameRules.setVisibility(View.INVISIBLE);
+            }
+
         }
 
     }

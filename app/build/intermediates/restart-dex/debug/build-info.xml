@@ -5,46 +5,33 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="190041716746719"
+    timestamp="222475535313326"
     token="-6736097259684772050"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="405" />
     <task
         name="instant-run-dex"
-        duration="8" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="161" />
     <task
         name="verifier"
-        duration="0" />
+        duration="27" />
 
     <artifact
-        location="C:\Users\Silas\AndroidStudioProjects\TheHangman\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="C:\Users\Silas\AndroidStudioProjects\TheHangman\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Users\Silas\AndroidStudioProjects\TheHangman\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="189990359647036"
+        timestamp="222475535313326"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Silas\AndroidStudioProjects\TheHangman\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="190041716746719"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Silas\AndroidStudioProjects\TheHangman\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="C:\Users\Silas\AndroidStudioProjects\TheHangman\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

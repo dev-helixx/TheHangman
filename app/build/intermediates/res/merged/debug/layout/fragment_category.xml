@@ -26,118 +26,16 @@
             android:textColor="#000000" />
     </LinearLayout>
 
-    <ScrollView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <LinearLayout
+        <ListView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" >
-
-            <TextView
-                android:text="Ord fra www.dr.dk"
-                android:textColor="#000000"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/web_words"
-                android:textAlignment="center"
-                android:textSize="24sp"
-                android:layout_marginBottom="20dp"
-                android:layout_marginTop="10dp" />
-
-            <TextView
-                android:text="Dyrearter"
-                android:textColor="#000000"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/animals_lbl"
-                android:textAlignment="center"
-                android:textSize="24sp"
-                android:layout_marginBottom="20dp"
-                 />
-
-            <TextView
-                android:text="Bilmærker"
-                android:textColor="#000000"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/cars_lbl"
-                android:textAlignment="center"
-                android:textSize="24sp"
-                android:layout_marginBottom="20dp" />
-
-            <TextView
-                android:text="Fødevarer"
-                android:textColor="#000000"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/foods_lbl"
-                android:textAlignment="center"
-                android:textSize="24sp"
-                android:layout_marginBottom="20dp" />
-
-
-            <TextView
-                android:text="Drengenavne"
-                android:textColor="#000000"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/malenames_lbl"
-                android:textAlignment="center"
-                android:textSize="24sp"
-                android:layout_marginBottom="20dp" />
-
-            <TextView
-                android:text="Pigenavne"
-                android:textColor="#000000"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/girlnames_lbl"
-                android:textAlignment="center"
-                android:textSize="24sp"
-                android:layout_marginBottom="20dp" />
-
-            <TextView
-                android:text="Byer"
-                android:textColor="#000000"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/cities_lbl"
-                android:textAlignment="center"
-                android:textSize="24sp"
-                android:layout_marginBottom="20dp" />
-
-            <TextView
-                android:text="Lande"
-                android:textColor="#000000"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/countries_lbl"
-                android:textAlignment="center"
-                android:textSize="24sp"
-                android:layout_marginBottom="20dp" />
-
-            <TextView
-                android:text="Sportgrene"
-                android:textColor="#000000"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/sports_lbl"
-                android:textAlignment="center"
-                android:textSize="24sp"
-                android:layout_marginBottom="20dp" />
-
-            <TextView
-                android:text="Computermærker"
-                android:textColor="#000000"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/computers_lbl"
-                android:textAlignment="center"
-                android:textSize="24sp"
-                android:layout_marginBottom="20dp" />
-        </LinearLayout>
-    </ScrollView>
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_height="match_parent"
+            android:id="@+id/category_listview" />
+    </RelativeLayout>
 
 </LinearLayout>

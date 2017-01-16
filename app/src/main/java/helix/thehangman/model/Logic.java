@@ -103,7 +103,7 @@ public class Logic {
     public void setCategory() {
 
 
-        if(GlobalData.category.equals("Dyr")) {
+        if(GlobalData.category.equals("Dyrearter")) {
             GlobalData.possibleWords.clear();
             GlobalData.possibleWords.add("hund");GlobalData.possibleWords.add("kat");
             GlobalData.possibleWords.add("marsvin");GlobalData.possibleWords.add("giraf");

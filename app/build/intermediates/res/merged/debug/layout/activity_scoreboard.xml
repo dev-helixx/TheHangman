@@ -14,11 +14,28 @@
     android:orientation="vertical">
 
 
-    <ImageButton
-        android:id="@+id/back_arrow"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@drawable/backarrow"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/back_arrow"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/backarrow" />
+
+        <TextView
+            android:text="HIGHSCORE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/headline_lbl"
+            android:textColor="#000000"
+            android:textSize="36sp"
+            android:textAlignment="center"
+            android:layout_weight="1" />
+    </LinearLayout>
 
     <LinearLayout
         android:orientation="vertical"
@@ -32,16 +49,6 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
-            <TextView
-                android:text="HIGHSCORE"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/headline_lbl"
-                android:textColor="#000000"
-                android:textSize="36sp"
-                android:textAlignment="center"
-               />
 
         </LinearLayout>
 
