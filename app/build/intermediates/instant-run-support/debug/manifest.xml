@@ -8,6 +8,8 @@
         android:minSdkVersion="14"
         android:targetSdkVersion="24" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name="com.android.tools.fd.runtime.BootstrapApplication"
         android:allowBackup="true"
@@ -16,7 +18,7 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="helix.thehangman.Splash" >
+        <activity android:name="helix.thehangman.frontend.activities.Splash" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,16 +26,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="helix.thehangman.SingleplayerActivity"
+            android:name="helix.thehangman.frontend.activities.SingleplayerActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="helix.thehangman.OptionsActivity"
+            android:name="helix.thehangman.frontend.activities.OptionsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="helix.thehangman.ScoreboardActivity"
+            android:name="helix.thehangman.frontend.activities.ScoreboardActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="helix.thehangman.MainActivity"
+            android:name="helix.thehangman.frontend.activities.MainActivity"
             android:screenOrientation="portrait" />
     </application>
 

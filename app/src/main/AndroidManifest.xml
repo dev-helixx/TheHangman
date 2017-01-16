@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="helix.thehangman">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/hangman_logo4"
@@ -9,7 +11,7 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Splash">
+        <activity android:name=".frontend.activities.Splash">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,14 +20,16 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".SingleplayerActivity"
+        <activity android:name=".frontend.activities.SingleplayerActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".OptionsActivity"
+        <activity android:name=".frontend.activities.OptionsActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".ScoreboardActivity"
+        <activity android:name=".frontend.activities.ScoreboardActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivity"
+        <activity android:name=".frontend.activities.MainActivity"
             android:screenOrientation="portrait"/>
     </application>
+
+
 
 </manifest>

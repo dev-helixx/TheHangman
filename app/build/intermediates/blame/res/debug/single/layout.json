@@ -124,6 +124,10 @@
         "source": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_name_box.xml",
+        "source": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\src\\main\\res\\layout\\fragment_name_box.xml"
+    },
+    {
         "merged": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_content_include.xml"
     },

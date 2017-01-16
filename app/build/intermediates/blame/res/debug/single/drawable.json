@@ -20,6 +20,10 @@
         "source": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\src\\main\\res\\drawable\\background2.png"
     },
     {
+        "merged": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border_bg.xml",
+        "source": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\src\\main\\res\\drawable\\border_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bubble.png",
         "source": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\src\\main\\res\\drawable\\bubble.png"
     },
@@ -128,6 +132,10 @@
         "source": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\src\\main\\res\\drawable\\executioner.png"
     },
     {
+        "merged": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\settings.png",
+        "source": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\src\\main\\res\\drawable\\settings.png"
+    },
+    {
         "merged": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
         "source": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_tab_indicator_material.xml"
     },
@@ -136,12 +144,12 @@
         "source": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\src\\main\\res\\drawable\\hangman_logo3.png"
     },
     {
-        "merged": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\helix_logo.png",
-        "source": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\src\\main\\res\\drawable\\helix_logo.png"
-    },
-    {
         "merged": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rotategif.gif",
         "source": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\src\\main\\res\\drawable\\rotategif.gif"
+    },
+    {
+        "merged": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\helix_logo.png",
+        "source": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\src\\main\\res\\drawable\\helix_logo.png"
     },
     {
         "merged": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
@@ -176,6 +184,10 @@
         "source": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
+        "merged": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background.jpg",
+        "source": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\src\\main\\res\\drawable\\background.jpg"
+    },
+    {
         "merged": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
@@ -198,6 +210,10 @@
     {
         "merged": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\backarrow.png",
+        "source": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\src\\main\\res\\drawable\\backarrow.png"
     },
     {
         "merged": "C:\\Users\\Silas\\AndroidStudioProjects\\TheHangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gallow_leftleg.png",
